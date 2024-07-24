@@ -941,6 +941,11 @@ header{
     }
 
 }
+@media screen and (max-width:477px){
+    .courses .courses-container{
+        grid-template-columns: 1fr;
+    }
+}
 @media screen and (max-width:390px){
     .heading{
         left: 50%;
