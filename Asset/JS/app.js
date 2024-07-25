@@ -258,7 +258,8 @@ function displayTestimonialData(testimonials) {
                 <p>"${cat_item.test}"</p>
             </div>
         </article>`;
-    }).join(" ");
+    });
+    displaydata=displaydata.join(" ");
     testimonial_container.innerHTML = displaydata;
 }
 
@@ -275,11 +276,8 @@ function initSwiper() {
             delay: 4500,
             disableOnInteraction: false,
         },
-        breakpoints: {
-            768: {
-                slidesPerView: 2
-            }
-        }
+    
+        
     });
 }
 

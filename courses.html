@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Style sheet  -->
         <link rel="stylesheet" href="Asset/CSS/style.css">
+        <link rel="stylesheet" href="Asset/CSS/courses.css">
+        <!-- favicon -->
+        <link rel="icon" type="img/icons" href="ASSET/IMG/favicon3.png">
+        <!-- jquery links -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <!-- Icons Coutlink -->
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
         <!-- swiperjs -->
@@ -14,6 +19,12 @@
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <title>FreeAcademia</title>
+    <style>
+        .courses-categories{
+            margin-top:4rem;
+            
+        }
+    </style>
 </head>
 <body>
     <!-- =================Navigation ----------------->
@@ -21,8 +32,86 @@
         <div class="container nav_container">
             <!-- Nav will be dynamically inserted here by JavaScript --> 
     </nav>
-    <!-- =================Navigation ----------------->
+    <!-- =================Navigation end----------------->
     
+    <!-- ========================Courses Categories start============== -->
+    <div class="courses-categories">
+        <div class="container course-category">
+            <div class="categoryinfo">
+                <div class="cat">
+                    <h2>Categories</h2>
+                </div>
+                <div class="search">
+                    <input type="text" class="form-control" placeholder="Search Courses...">
+                    <button type="submit" class="btn-search"><i class="uil-search"></i></button>
+                </div>
+            </div>
+            <div class="catlist">
+                <ul>
+                    <!-- <li data-id="All">All</li>
+                    <li data-id="Web Dev">Web Dev</li>
+                    <li>App Dev</li>
+                    <li>Graphic Design</li>
+                    <li>Network System</li>
+                    <li>BlockChain</li>
+                    <li>Business</li>
+                    <li>Health & Fitness </li>
+                    <li>Marketing</li>
+                    <li>Lifestyle</li>
+                    <li>Personal Developmetn</li>
+                    <li>Social Media</li>
+                    <li>Programing</li>
+                    <li>Wordpess</li>
+                    <li>Ethical Hacking</li>
+                    <li>Artificial intelligence</li> -->
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- ========================Courses Categories End============== -->
+
+
+
+
+
+
+    <!-- COURSES START -->
+     <section class="mianscourses"> 
+        <!-- <div class="heading"><h2><span>COURSES</span></h2></div> -->
+        <div class="container miancontainer-courses">
+            <!-- <article class="maincourse">
+                <div class="course-img">
+                    <img src="Asset/IMG/Courses-img/course1.jpg" alt="">
+                </div>
+                <div class="course-info">
+                    <h4>ChatGPT Prompt Engineering Mastery</h4>
+                    <div class="free-Price">
+                        <p class="free">Web Dev</p>
+                        <p class="free">Free</p>
+                    </div>
+                    <a href="Courses/course1.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article> -->
+        </div>
+        <!-- Pagination -->
+        <div class="pagination">
+            <!-- <li class="page-item previous-page disable"> <a href="#" class="page-link">Prev</a></li>
+            <li class="page-item current-page active"> <a href="#" class="page-link">1</a></li>
+            <li class="page-item dot-page"> <a href="#" class="page-link">...</a></li>
+            <li class="page-item current-page"> <a href="#" class="page-link">5</a></li>
+            <li class="page-item current-page"> <a href="#" class="page-link">6</a></li>
+            <li class="page-item current-page"> <a href="#" class="page-link">7</a></li>
+            <li class="page-item dot-page"> <a href="#" class="page-link">...</a></li>
+            <li class="page-item current-page"> <a href="#"class="page-link">10</a></li> 
+            <li class="page-item next-page"> <a href="#" class="page-link">Next</a></li> -->
+        </div>
+    </section>
+    <!-- COURSES END -->
+
+
+
+
     <!-- FOOTER START -->
  <section class="footer">
     <!-- Footer is will be dynamically inserted here by JavaScript -->
@@ -31,5 +120,6 @@
 
 <script src="Asset/JS/navFoot.js"></script>
 <script src="Asset/JS/main.js"></script>
+<script src="Asset/JS/courses.js"></script>
 </body>
-</html>
+</html> 
