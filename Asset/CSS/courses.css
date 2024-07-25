@@ -42,7 +42,7 @@
 } */
 .categoryinfo{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
     /* border: 1px solid blue; */
     margin-bottom: -1.8rem;
@@ -51,6 +51,7 @@
     font: 3rem;
     color: var(--primary-color);
     padding:0.7rem 1.6rem ;
+    margin-top:2rem ;
     /* display: none; */
 }
 .search{
@@ -60,10 +61,11 @@
     padding: 0.7rem 1.5rem;
     border-radius: 2rem;
     width: 45%;
-    display: flex;
+    display:-webkit-inline-flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     gap: .1rem;
+    position: relative;
 
 }
 .search input{
@@ -73,14 +75,14 @@
     font-family: inherit;
     font-size: .9rem;
     width: 120%;
-    position:static;
+    position:relative;
     background:var(--light-color);
 
     
 }
 
 .search button{
-    position: fixed;
+    position: absolute;
     padding: 0.7rem 1.6rem; 
     outline: none;
     border: none;
@@ -243,4 +245,49 @@
 }
 .disable{
     background: #ccc;
+}
+
+
+/* ====Media Queries (Tablets) Start ======= */
+@media screen and (max-width:1024px){
+    .mianscourses .miancontainer-courses{
+        grid-template-columns: repeat(3,1fr);
+        justify-content: center;
+    }
+    .courses-categories .container{
+        width: var(--container-width-md);
+        justify-content: center;
+    }
+}
+@media screen and (max-width:786px){
+    .mianscourses .miancontainer-courses{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (max-width:600px){
+    .mianscourses .miancontainer-courses{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .categoryinfo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .search input{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:430px){
+    .mianscourses .miancontainer-courses{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .search{
+        display: none;
+    }
+    .catlist{
+        display: flex;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+
 }
