@@ -107,6 +107,13 @@
     line-height: 1.8;
     margin-left: 2.4rem;
 }
+.main-content ul li{
+    font-size: 1.1rem;
+    margin: 1rem;
+    line-height: 1.7;
+    margin-left: 2.8rem;
+    color:var(--black-color);
+}
 .main-content ul li p{
     font-size: 1.1rem;
     margin: 1rem;
@@ -115,6 +122,12 @@
 }
 .main-content ul li h3{
     font-size: 1.5rem;
+    margin: .7rem;
+    line-height: 1.8;
+    margin-left: 2.4rem;
+}
+.main-content ul li p{
+    font-size: 1.3rem;
     margin: .7rem;
     line-height: 1.8;
     margin-left: 2.4rem;

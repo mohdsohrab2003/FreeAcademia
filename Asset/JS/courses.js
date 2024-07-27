@@ -1,38 +1,38 @@
 let coursesData=[
     {
         id:1,
-        title:"ChatGPT Prompt Engineering Mastery",
+        title:"Microsoft Word Mastery: Essential Skill for Job and Business",
         img:"Asset/IMG/Courses-img/course1.jpg",
-        category:"AI",
-        link:"Courses/Course1.html",
+        category:"Personal Dev",
+        link:"Courses/Course1.html"
     },
     {
         id: 2,
-        title: "Ethical Hacking: Linux Intrusion Essentials",
+        title: "UI/UX Design Masterclass with Adobe XD: From Beginner to Pro",
         img: "Asset/IMG/Courses-img/course2.jpg",
-        category: "Hacking",
-        link: "https://www.udemy.com/course/linux-intrusion-essentials/",
+        category: "UI/UX",
+        link: "Courses/Course2.html"
     },
     {
         id: 3,
-        title: "Responsive Admin DashBoard UI Design",
+        title: "Microsoft Excel Comprehensive Guide",
         img: "Asset/IMG/Courses-img/course3.jpg",
-        category: "UI/UX",
-        link: "https://www.udemy.com/course/responsive-admin-dashboard-ui-design/",
+        category: "Personal Dev",
+        link: "Courses/Course3.html"
     },
     {
         id: 4,
-        title: "Master Course: Cybersecurity Ransomware Incident Response",
+        title: "Automated Machine Learning for Beginners (Google & Apple)",
         img: "Asset/IMG/Courses-img/course4.jpg",
         category: "Hacking",
-        link: "https://www.udemy.com/course/cybersecurity-ransomware-incident-response/",
+        link: "Courses/Course4.html",
     },
     {
         id: 5,
-        title: "50Days of DSA JavaScript Data Structures Algorithms LEETCODE",
+        title: "CyberSecurity Bootcamp: The Ultimate Beginner's Course",
         img: "Asset/IMG/Courses-img/course5.jpg",
-        category: "Programming",
-        link: "https://www.udemy.com/course/50days-of-dsa-javascript/",
+        category: "Hacking",
+        link: "Courses/Course5.html",
     },
     {
         id: 6,

@@ -79,11 +79,11 @@ function displayMovieData(courses){
                 <img src="${cat_item.img}" alt="">
             </div>
             <div class="course-info">
-                <h4>${cat_item.title}</h4>
-                <div class="free-Price">
+            <div class="free-Price">
                     <p class="free">${cat_item.Category}</p>
                     <p class="free">Free</p>
                 </div>
+                <h4>${cat_item.title}</h4>
                 <a href="${cat_item.link}" class="btn btn-primary">Learn More</a>
             </div>
          </article>`;

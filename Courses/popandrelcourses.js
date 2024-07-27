@@ -1,62 +1,3 @@
-// let pCoursesData = [
-//     {
-//         id:1,
-//         title: "Ethical Hacking: Linux Intrusion Essentials",
-//         img: "../Asset/IMG/Courses-img/course2.jpg",
-//         category: "Hacking",
-//         link: "https://www.udemy.com/course/linux-intrusion-essentials/",
-//     },
-//     {
-//         id:2,
-//         title: "Responsive Admin DashBoard UI Design",
-//         img: "../Asset/IMG/Courses-img/course3.jpg",
-//         category: "UI/UX",
-//         link: "https://www.udemy.com/course/responsive-admin-dashboard-ui-design/",
-//     },
-//     {
-//         id:3,
-//         title: "Master Course: Cybersecurity Ransomware Incident Response",
-//         img: "../Asset/IMG/Courses-img/course4.jpg",
-//         category: "Hacking",
-//         link: "https://www.udemy.com/course/cybersecurity-ransomware-incident-response/",
-//     },
-//     {
-//         id:4,
-//         title: "50Days of DSA JavaScript Data Structures Algorithms LEETCODE",
-//         img: "../Asset/IMG/Courses-img/course5.jpg",
-//         category: "Programming",
-//         link: "https://www.udemy.com/course/50days-of-dsa-javascript/",
-//     },
-//     {
-//         id:5,
-//         title: "Javascript Practicals Crash Course",
-//         img: "../Asset/IMG/Courses-img/course6.jpg",
-//         category: "Programming",
-//         link: "https://www.udemy.com/course/javascript-practicals-crash-course/",
-//     },
-// ]
-
-// const pcourses_Container = document.querySelector(".pcourses");
-
-// window.addEventListener("DOMContentLoaded", () => {
-//     displayCourseData(pCoursesData);
-// });
-
-// function displayCourseData(pcourses) {
-//     let displaydata = pcourses.map(function(cat_item) {
-//         return `<article class="pcourse">
-//                     <div class="pcourse-img">
-//                         <img src="${cat_item.img}" alt="">
-//                     </div>
-//                     <div class="content">
-//                         <a href="${cat_item.link}"><h3>${cat_item.title}</h3></a>
-//                     </div>
-//                 </article>`;
-//     });
-//     displaydata = displaydata.join(" ");
-//     pcourses_Container.innerHTML = displaydata;
-// }
-
 
 let relCoursesData = [
     {
@@ -105,18 +46,18 @@ let relCoursesData = [
 
 let pCoursesData = [
     {
-        id: 1,
-        title: "Ethical Hacking: Linux Intrusion Essentials",
-        img: "../Asset/IMG/Courses-img/course2.jpg",
-        category: "Hacking",
-        link: "https://www.udemy.com/course/linux-intrusion-essentials/",
+        id:1,
+        title:"Microsoft Word Mastery: Essential Skill for Job and Business",
+        img:"../Asset/IMG/Courses-img/course1.jpg",
+        category:"Personal Dev",
+        link:"Course1.html",
     },
     {
         id: 2,
-        title: "Responsive Admin DashBoard UI Design",
-        img: "../Asset/IMG/Courses-img/course3.jpg",
+        title: "UI/UX Design Masterclass with Adobe XD: From Beginner to Pro",
+        img: "../Asset/IMG/Courses-img/course2.jpg",
         category: "UI/UX",
-        link: "https://www.udemy.com/course/responsive-admin-dashboard-ui-design/",
+        link: "Course2.html",
     },
     {
         id: 3,
