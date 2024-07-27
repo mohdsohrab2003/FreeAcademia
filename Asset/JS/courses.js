@@ -4,7 +4,7 @@ let coursesData=[
         title:"ChatGPT Prompt Engineering Mastery",
         img:"Asset/IMG/Courses-img/course1.jpg",
         category:"AI",
-        link:"https://www.udemy.com/course/ai-powered-side-hustles/?couponCode=FreeCoupon",
+        link:"Courses/Course1.html",
     },
     {
         id: 2,

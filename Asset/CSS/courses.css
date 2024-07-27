@@ -34,7 +34,7 @@
         
 }
 .courses-categories .container{
-    width: var(--container-width-sh);
+    width: var(--container-width-fl);
 }
 /* .course-category{
     border-radius: 2px solid green;
@@ -43,7 +43,7 @@
 .categoryinfo{
     display: flex;
     /* align-items: center; */
-    justify-content: space-between;
+    justify-content: space-around;
     /* border: 1px solid blue; */
     margin-bottom: -1.8rem;
  }
@@ -75,7 +75,7 @@
     font-family: inherit;
     font-size: .9rem;
     width: 120%;
-    position:relative;
+    position:absolute;
     background:var(--light-color);
 
     
