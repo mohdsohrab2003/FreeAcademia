@@ -1,5 +1,67 @@
 let coursesData=[
     {
+        id:21,
+        title:"Microsoft Excel - The Complete Excel Data Analysis Coursey",
+        img:"Asset/IMG/Courses-img/course21.jpg",
+        category:"Personal Dev",
+        link:"Courses/Course21.html"
+    },
+    {
+        id:20,
+        title:"ChatGPT Prompt Engineering Mastery",
+        img:"Asset/IMG/Courses-img/course20.jpg",
+        category:"AI",
+        link:"Courses/Course20.html"
+    },
+    {
+        id:19,
+        title:"Essentials User Experience Design Adobe XD UI UX Design",
+        img:"Asset/IMG/Courses-img/course19.jpg",
+        category:"UI/UX",
+        link:"Courses/Course19.html"
+    },
+    {
+        id:18,
+        title:"Personal Finance #11-Stock Investment -Equity Investments",
+        img:"Asset/IMG/Courses-img/course18.jpg",
+        category:"Business",
+        link:"Courses/Course18.html"
+    },
+    {
+        id:17,
+        title:"Learn HTML and CSS from Beginning to Advanced",
+        img:"Asset/IMG/Courses-img/course17.jpg",
+        category:"Development",
+        link:"Courses/Course17.html"
+    },
+    {
+        id:16,
+        title:"PowerPoint - Microsoft PowerPoint From Basic to Advanced",
+        img:"Asset/IMG/Courses-img/course16.jpg",
+        category:"Personal Dev",
+        link:"Courses/Course16.html"
+    },
+    {
+        id:15,
+        title:"Essential Microsoft PowerPoint Course for Everyone",
+        img:"Asset/IMG/Courses-img/course15.jpg",
+        category:"Personal Dev",
+        link:"Courses/Course15.html"
+    },{
+        id:14,
+        title:"Complete jQuery Course: Learn From Beginner To Advanced",
+        img:"Asset/IMG/Courses-img/course14.jpg",
+        category:"Programming",
+        link:"Courses/Course14.html"
+    },
+    {
+        id:13,
+        title:"Mastering C & C++ Programming: From Fundamentals to Advanced",
+        img:"Asset/IMG/Courses-img/course13.jpg",
+        category:"Programming",
+        link:"Courses/Course13.html"
+    },
+    {
         id:12,
         title:"The Ultimate Filmora Video Editing Course: Beginner to Pro",
         img:"Asset/IMG/Courses-img/course12.jpg",
