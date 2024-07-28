@@ -1,67 +1,66 @@
  let popCoursesData=[
     {
         id:1,
-        title:"ChatGPT Prompt Engineering Mastery",
+        title:"Microsoft Word Mastery: Essential Skill for Job and Business",
         img:"Asset/IMG/Courses-img/course1.jpg",
-        Category:"Web Dev",
-        link:"https://www.udemy.com/course/ai-powered-side-hustles/?couponCode=FreeCoupon",
+        category:"Personal Dev",
+        link:"Courses/Course1.html"
     },
     {
-        id:2,
-        title:"Ethical Hacking: Linux Intrusion Essentials",
-        img:"Asset/IMG/Courses-img/course2.jpg",
-        Category:"Hacking",
-        link:"Courses/course1.html",
+        id: 2,
+        title: "UI/UX Design Masterclass with Adobe XD: From Beginner to Pro",
+        img: "Asset/IMG/Courses-img/course2.jpg",
+        category: "UI/UX",
+        link: "Courses/Course2.html"
     },
     {
-        id:3,
-        title:"Responsive Admin DashBoard UI Design",
-        img:"Asset/IMG/course3.jpg",
-        Category:"UI/UX",
-        link:"Courses/course1.html", 
-    },
-
-    {
-        id:4,
-        title:"ChatGPT Prompt Engineering Mastery",
-        img:"Asset/IMG/Courses-img/course1.jpg",
-        Category:"Web Dev",
-        link:"Courses/course1.html",
+        id: 3,
+        title: "Microsoft Excel Comprehensive Guide",
+        img: "Asset/IMG/Courses-img/course3.jpg",
+        category: "Personal Dev",
+        link: "Courses/Course3.html"
     },
     {
-        id:5,
-        title:"Ethical Hacking: Linux Intrusion Essentials",
-        img:"Asset/IMG/Courses-img/course2.jpg",
-        Category:"Hacking",
-        link:"Courses/course1.html",
+        id: 4,
+        title: "Automated Machine Learning for Beginners (Google & Apple)",
+        img: "Asset/IMG/Courses-img/course4.jpg",
+        category: "Hacking",
+        link: "Courses/Course4.html",
     },
     {
-        id:6,
-        title:"Responsive Admin DashBoard UI Design",
-        img:"Asset/IMG/course3.jpg",
-        Category:"UI/UX",
-        link:"Courses/course1.html", 
+        id: 5,
+        title: "CyberSecurity Bootcamp: The Ultimate Beginner's Course",
+        img: "Asset/IMG/Courses-img/course5.jpg",
+        category: "Hacking",
+        link: "Courses/Course5.html",
     },
     {
-        id:7,
-        title:"ChatGPT Prompt Engineering Mastery",
-        img:"Asset/IMG/Courses-img/course1.jpg",
-        Category:"Web Dev",
-        link:"Courses/course1.html",
+        id: 6,
+        title: "Learning Python in Just Five Hours: Novice to Ninja",
+        img: "Asset/IMG/Courses-img/course6.jpg",
+        category: "Programming",
+        link: "Courses/Course6.html",
     },
     {
-        id:8,
-        title:"Ethical Hacking: Linux Intrusion Essentials",
-        img:"Asset/IMG/Courses-img/course2.jpg",
-        Category:"Hacking",
-        link:"Courses/course1.html",
+        id: 7,
+        title: "Executive Diploma in Engineering Management",
+        img: "Asset/IMG/Courses-img/course7.jpg",
+        category: "Business",
+        link: "Courses/Course7.html",
     },
     {
-        id:9,
-        title:"Responsive Admin DashBoard UI Design",
-        img:"Asset/IMG/course3.jpg",
-        Category:"UI/UX",
-        link:"Courses/course1.html", 
+        id: 8,
+        title: "PHP Laravel: Build Travel Agency Management System",
+        img: "Asset/IMG/Courses-img/course8.jpg",
+        category: "Development",
+        link: "Courses/Course8.html",
+    },
+    {
+        id: 9,
+        title: "Build, Host & Manage WordPress Websites using AI [10Web]",
+        img: "Asset/IMG/Courses-img/course9.jpg",
+        category: "WordPress",
+        link: "Courses/Course9.html",
     },
 ]
 
@@ -80,7 +79,7 @@ function displayMovieData(courses){
             </div>
             <div class="course-info">
             <div class="free-Price">
-                    <p class="free">${cat_item.Category}</p>
+                    <p class="free">${cat_item.category}</p>
                     <p class="free">Free</p>
                 </div>
                 <h4>${cat_item.title}</h4>

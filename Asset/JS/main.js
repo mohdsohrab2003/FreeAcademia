@@ -4,26 +4,6 @@ window.addEventListener('scroll',()=>{
     ('window-scroll' , window.scrollY>100)
 });
 
-
-// swiper testimonial students
-// var swiper = new Swiper(".mySwiper", {
-//     loop: true,
-//     slidesPerView: 1,
-//     spaceBetween: 30,
-//     pagination: {
-//         el: ".swiper-pagination",
-//         clickable: true,
-//     },
-//     autoplay: {
-//         delay: 4500,
-//         disableOnInteraction: false,
-//     },
-//     breakpoints: {
-//         768: {
-//             slidesPerView: 2
-//         }
-//     }
-// });
 function setupMenuToggle() {
     const menu = document.querySelector(".nav_menu");
     const menubtn = document.querySelector("#open-menu-btn");

@@ -1,42 +1,42 @@
 
 let relCoursesData = [
     {
-        id: 12,
+        id: 1,
         title: "Java And C++ Complete Course for Beginners 2022",
         img: "../Asset/IMG/Courses-img/course12.jpg",
         category: "Programming",
         link: "https://www.udemy.com/course/java-c-plus-plus-complete-course/",
     },
     {
-        id: 13,
+        id: 2,
         title: "Ethical Hacking: Hacker Methodology",
         img: "../Asset/IMG/Courses-img/course13.jpg",
         category: "Hacking",
         link: "https://www.udemy.com/course/hacker-methodology/",
     },
     {
-        id: 14,
+        id: 3,
         title: "AWS Certified Advanced Networking - Specialty (101 Course)",
         img: "../Asset/IMG/Courses-img/course14.jpg",
         category: "AWS",
         link: "https://www.udemy.com/course/aws-certified-advanced-networking-specialty/",
     },
     {
-        id: 15,
+        id: 4,
         title: "Curso de HostGator 2023: El Hosting Ideal Para WordPress",
         img: "../Asset/IMG/Courses-img/course15.jpg",
         category: "Net & Sys",
         link: "https://www.udemy.com/course/hostgator-wordpress/",
     },
     {
-        id: 16,
+        id: 5,
         title: "Learn Blockchain and Cryptocurrency from Beginning",
         img: "../Asset/IMG/Courses-img/course16.jpg",
         category: "Blockchain",
         link: "https://www.udemy.com/course/blockchain-and-cryptocurrency/",
     },
     {
-        id: 17,
+        id: 6,
         title: "NGO, Orphanage, Elderly Care Homes & Retirement Homes 2.0",
         img: "../Asset/IMG/Courses-img/course17.jpg",
         category: "Health",
